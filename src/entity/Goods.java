@@ -61,15 +61,4 @@ public class Goods {
         this.price = price;
     }
 
-    @Override
-    public String toString() {
-        return "Goods{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", count=" + count +
-                ", price=" + price +
-                ", sumPrice=" + sumPrice +
-                '}';
-    }
 }
